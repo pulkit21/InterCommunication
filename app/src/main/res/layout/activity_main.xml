@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <fragment
+        android:layout_marginBottom="10dp"
+        android:id="@+id/topFragment"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:name="com.example.pulkit.intercommunication.TopFragment"/>
+    <fragment
+        android:id="@+id/bottomFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.example.pulkit.intercommunication.BottomFragment"/>
+</LinearLayout>
